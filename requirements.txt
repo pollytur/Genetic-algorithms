@@ -1,0 +1,6 @@
+python >=3.5
+
+import datetime
+import random
+import numpy as np
+from PIL import Image, ImageDraw
