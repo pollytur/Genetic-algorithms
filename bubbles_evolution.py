@@ -86,7 +86,7 @@ class Picture:
 
         arr = np.asarray(image)
         final = Image.fromarray((arr * 255).astype(np.uint8))
-        final.save(name + ".jpg")
+        final.rotate(-90).save(name + ".jpg")
 
 
 def upload_picture(filename):
